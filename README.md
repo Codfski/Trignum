@@ -1,10 +1,10 @@
 # 🔬 TRIGNUM
 
-### *Epistemic Authorization for the Multi-Agent AI Era*
+### *Epistemic Authorization for Multi-Agent AI Systems*
 
-[![Status](https://img.shields.io/badge/Status-Research-yellow)](.)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Theory](https://img.shields.io/badge/Theory-SIGNUMTRACE-blue)](THEORY.md)
+[![Status](https://img.shields.io/badge/Status-Stealth-orange)](.)
+[![License](https://img.shields.io/badge/License-Proprietary-red)](.)
+[![Contact](https://img.shields.io/badge/Contact-Partnership_Inquiries-blue)](mailto:codfski@gmail.com)
 
 ---
 
@@ -12,71 +12,162 @@
 
 AI agents can't prove they should be trusted.
 
-When you have:
-Human → Agent A → Agent B → Tool → API → Critical Resource
+When you have multi-agent systems:
+Human → Agent A → Agent B → Tool → Critical Resource
 Nobody can answer:
 - Why should Agent B have access?
 - What evidence supports this request?
 - Who is ultimately responsible?
-- When does this authorization expire?
-- How can we audit this decision chain?
+- How can we audit this decision?
+
+This is blocking deployment of AI in regulated industries:
+- 🏥 Medical robotics (FDA won't approve without audit trails)
+- 🚗 Autonomous vehicles (Legal liability for decisions)
+- 💰 Financial systems (SEC requires explainability)
+- 🏢 Enterprise AI (GDPR/CCPA compliance required)
 
 ---
 
-## 💡 The TRIGNUM Solution
+## 💡 Current "Solutions" Don't Work
 
-### Epistemic Authorization ≠ Technical Identity
+| Approach | Problem |
+|----------|---------|
+| OAuth/SAML | Only works if you own all the code |
+| API Keys | No context, no audit trail |
+| Role-Based Access | Can't handle dynamic agent chains |
 
-Instead of asking *"Who are you?"* (authentication) or *"What can you do?"* (authorization), 
-
-Trignum asks:
-- "What EVIDENCE supports your authority to act?"
-- "What is the CHAIN OF CUSTODY from human intent to agent action?"
-- "What is the CONFIDENCE LEVEL that this action is justified?"
-
----
-
-## 🏗️ How It Works (High-Level)
-
-Trignum sits as an **Epistemic Gateway** between agents and protected resources. It uses a novel **Tensor RAG** engine to retrieve multi-dimensional evidence (Time, Source, Confidence, Jurisdiction) to validate every autonomous request.
-
-### Key Innovation: Middleware Proxy
-- **Zero Agent Modification**: Works with third-party agents where you don't own the source code.
-- **Explainable Decisions**: Every GRANT/DENY comes with a quantified confidence score and evidence log.
-- **Auditability**: Blockchain-style immutable logs for regulatory compliance (FDA, SEC, GDPR).
+As noted by security leaders at Fortune 500 companies:
+> *"Identity passing works if you own the source code of all in-between systems. But in a world where agents exist that we don't have source code for, this is more difficult."*
 
 ---
 
-## 🔬 Medical Robotics Reference Use Case
+## ✅ The TRIGNUM Solution
 
-In a surgical setting (e.g., **NVIDIA Isaac + Cosmos**), a robot detecting unexpected tissue needs an immediate, auditable adjustment.
+We've developed a novel approach to epistemic authorization — not just *"who are you?"* but *"what evidence supports your authority to act?"*
 
-- **Without Trignum**: A "black box" decision that regulators (FDA) cannot approve.
-- **With Trignum**: The robot retrieves evidence (Surgical Plan, Patient Consent, Clinical Guidelines, Physician Supervision) in real-time to authorize the adjustment with 89% confidence.
+### Key Innovation
 
----
+Works without modifying agent source code — even with third-party AI agents you don't control.
 
-## 🌍 Market & Applications
+### Core Capabilities
 
-TRIGNUM provides the trust infrastructure for:
-- **Healthcare**: Medical robotics & autonomous diagnostics (FDA-grade).
-- **Autonomous Vehicles**: Liability protection for self-driving decisions.
-- **Finance**: Auditable algorithmic trading & compliance.
-- **Enterprise AI**: Secure delegation across multi-agent workflows.
-
----
-
-## 🤝 Partnership & Research
-
-The TRIGNUM reference implementation is private. We are currently seeking strategic partnerships with:
-- **Platform Providers**: NVIDIA (Cosmos/Isaac), Anthropic, OpenAI, Salesforce.
-- **Industry Leaders**: Medical device manufacturers, AV fleets, Financial institutions.
-
-**Contact**: [Moez Abdessattar](mailto:codfski@gmail.com)  
-**Theories**: [THEORY.md](THEORY.md) | [SIGNUMTRACE](https://github.com/Codfski/SignumTrace)
+- ✅ Evidence-based authorization (not just identity tokens)
+- ✅ Multi-dimensional evidence retrieval (patent-pending)
+- ✅ Explicit uncertainty quantification (confidence scores)
+- ✅ Complete audit trails (regulatory compliance)
+- ✅ Contradiction detection (epistemic honesty)
 
 ---
 
-### 🌊 *"Intelligence isn't about knowing everything. It's about measuring accurately."*
+## 🌍 Market Opportunity
 
-Built with epistemic humility | Grounded in reality | Honest by design
+| Industry | Use Case | Market Size |
+|----------|----------|-------------|
+| 🏥 Healthcare | Medical robotics, diagnostics | $50B+ |
+| 🚗 Autonomous Systems | Self-driving vehicles, drones | $60B+ |
+| 💰 Finance | Trading, compliance | $40B+ |
+| 🏢 Enterprise AI | Multi-agent platforms | $100B+ |
+
+Total addressable market: $250B+
+
+---
+
+## 🤝 Partnerships
+
+We're actively seeking partnerships with:
+
+### Platform Providers
+- NVIDIA (medical robotics, autonomous systems)
+- Anthropic/OpenAI (multi-agent frameworks)
+- Salesforce (AgentForce authorization)
+- Microsoft/Google (cloud AI platforms)
+
+### Industry Leaders
+- Medical device manufacturers
+- Autonomous vehicle companies
+- Financial institutions
+- Enterprise AI platforms
+
+### Academic/Regulatory
+- Academic medical centers (clinical validation)
+- FDA consultants (regulatory pathway)
+- AI safety organizations
+
+---
+
+## 🔒 Intellectual Property
+
+Status: Patent pending
+
+Core innovations in:
+- Multi-dimensional evidence retrieval architecture
+- Epistemic authorization methodology
+- Agent chain verification systems
+
+For technical documentation and partnership discussions, please contact us.
+
+---
+
+## 📞 Request Information
+
+For partnership inquiries:
+- Email: codfski@gmail.com
+- LinkedIn: [Moez Abdessattar](https://ly.linkedin.com/in/traceonlab-codfski)
+
+For technical documentation:
+- Available under NDA to qualified partners
+- Includes architecture specifications
+- Integration guidelines
+- Pilot program details
+
+For investment discussions:
+- Company stage: Seed round preparation
+- Market validation: In progress
+- Technical readiness: Reference implementation complete
+
+---
+
+## 🌟 Why This Matters
+
+The agentic AI era needs a trust layer. 
+
+Current identity systems assume you own the full stack. Trignum works even when you don't.
+
+When AI agents control medical robots, autonomous vehicles, and financial transactions, epistemic authorization isn't optional — it's essential.
+
+---
+
+## 🔬 Theoretical Foundation
+
+TRIGNUM builds on SIGNUMTRACE — a framework for understanding intelligence through the lens of measurement and epistemic accuracy.
+
+> *"Intelligence isn't about knowing everything. It's about measuring accurately."*
+
+See: [SignumTrace Repository](https://github.com/Codfski/SignumTrace) for theoretical background
+
+---
+
+## 📋 Status
+
+Current Phase: Seed funding preparation  
+Technical Status: Reference implementation complete  
+Clinical Validation: Pilot partnerships in progress  
+Regulatory: FDA pre-submission pathway being evaluated
+
+---
+
+## ⚖️ Legal
+
+Copyright: © 2026 Trignum. All rights reserved.  
+Patent Status: Patent pending - provisional filing in progress  
+License: Proprietary - technical documentation available under NDA
+
+---
+
+Contact: codfski@gmail.com  
+Website: [Coming soon]  
+Documentation: Available to partners under NDA
+
+---
+
+*Built with epistemic humility | Grounded in reality | Honest by design*
